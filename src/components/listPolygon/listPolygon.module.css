@@ -1,0 +1,23 @@
+.calibrator {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background: rgba(80, 167, 217, 0.6);
+  border-radius: 4px;
+}
+
+.numCalibrator {
+  padding: 5px;
+  font-weight: 700;
+  flex-grow: 0;
+}
+
+.nameCalibrator {
+  padding: 5px;
+  font-weight: 400;
+  flex-grow: 1;
+}
