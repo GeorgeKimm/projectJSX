@@ -36,7 +36,7 @@ export function Posts() {
       <button onClick={fetchPosts}>press</button>
       {error && <h1>произошла ошибка {error}</h1>}
       {isLoading ? (
-        <h1>Идет загрузка ...</h1>
+        <h1>Привет, Идет загрузка ...</h1>
       ) : (
         <div>
           {posts.map((post) => {
