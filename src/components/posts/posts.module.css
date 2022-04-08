@@ -1,0 +1,15 @@
+.page_wrapper {
+  margin-top: 30px;
+  display: flex;
+}
+
+.page {
+  border: none;
+  padding: 10px;
+  background-color: rgb(129, 150, 241);
+  cursor: pointer;
+}
+
+.page_current {
+  background-color: crimson;
+}

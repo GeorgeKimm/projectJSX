@@ -1,10 +1,15 @@
 import React from "react";
-import { ListPolygonTest } from "./listPolygon/listPolygon.test";
+
+// import { ListPolygonTest } from "./listPolygon/listPolygon.test";
+// import { Posts } from "./posts/posts";
+import { Test } from "./test/test";
 
 function App() {
   return (
     <div className="App">
-      <ListPolygonTest />
+      {/* <ListPolygonTest /> */}
+      {/* <Posts /> */}
+      <Test />
     </div>
   );
 }
